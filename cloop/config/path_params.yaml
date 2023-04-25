@@ -1,0 +1,9 @@
+select : "speed"
+speed : 0.6
+time : 20.0
+kw : 1.0
+iw : 0.0
+dw : 0.0
+kl : 1.0
+il : 0.0
+dl : 0.0

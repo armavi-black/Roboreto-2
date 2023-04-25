@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+    <rosparam file = "$(find cloop)/config/path_params.yaml" command = "load"  />
+    <rosparam file = "$(find cloop)/config/trayectory_params.yaml" command = "load"  />
+    <node name="control" pkg="cloop" type="control.py" output="screen"/>
+    <node name="path_generator" pkg="cloop" type="path_generator.py" output="screen"/>    
+
+</launch>
